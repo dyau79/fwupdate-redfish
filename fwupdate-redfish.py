@@ -40,7 +40,7 @@ def update_firmware(host, firmware_url):
 def main():
     hosts_file = 'hosts.txt'
     target_firmware_version = '2.0.0'  # Replace with your target firmware version
-    firmware_update_url = 'http://example.com/firmware.bin'  # Replace with your firmware URL
+    firmware_update_url = 'firmware.bin'  # Replace with your firmware location http://example.com/firmware.bin
 
     hosts = read_hosts_from_file(hosts_file)
 
