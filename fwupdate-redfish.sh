@@ -45,7 +45,7 @@ update_firmware() {
 # Main script
 HOSTS_FILE="hosts.txt"
 TARGET_VERSION="2.0.0"  # Set your target firmware version here
-FIRMWARE_URL="http://example.com/firmware.bin"  # Set your firmware URL here
+FIRMWARE_URL="firmware.bin"  # Set your firmware URL here http://example.com/firmware.bin
 
 while IFS=';' read -r host username password; do
     echo "Processing host: ${host}"
